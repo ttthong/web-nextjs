@@ -1,0 +1,21 @@
+{
+  "detectedConfig": {
+    "typescript": true,
+    "naming": "Pascal Case",
+    "unit": "px",
+    "framework": "react",
+    "styling": "CSS"
+  },
+  "locofyConfig": {
+    "project": "layout",
+    "id": "65f904fa9fcdd88dc2fdf0bd",
+    "framework": "react-nextjs",
+    "typescript": true,
+    "styling": "Tailwind",
+    "unit": "px",
+    "naming": "Kebab Case",
+    "path": "public/",
+    "componentsPath": "e:\\web-nextjs\\my-next-app\\src\\components",
+    "screensPath": "e:\\web-nextjs\\my-next-app\\src\\pages"
+  }
+}
