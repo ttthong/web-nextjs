@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+module.exports = 
+{
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
@@ -8,6 +9,20 @@ module.exports = {
     extend: {
       colors: {
         white: "#fff",
+        black: "#000",
+        snow: {
+          100: "#fffcfc",
+          200: "#fffbfb",
+          300: "#fffafa",
+        },
+        gray: {
+          100: "#fffefe",
+          200: "#fffdfd",
+          300: "#fefcfc",
+          400: "rgba(23, 23, 23, 0.5)",
+          500: "rgba(255, 255, 255, 0)",
+        },
+
         gainsboro: "#d9d9d9",
         silver: {
           100: "#cac9c9",
@@ -24,10 +39,15 @@ module.exports = {
       fontFamily: {
         inter: "Inter",
       },
+      borderRadius: {
+
     },
     fontSize: {
-      "6xl": "25px",
       xl: "20px",
+      lg: "18px",
+      "11xl": "30px",
+      "5xl": "24px",
+
       mini: "15px",
       base: "16px",
       "11xl": "30px",
@@ -55,4 +75,4 @@ module.exports = {
   corePlugins: {
     preflight: false,
   },
-};
+}};

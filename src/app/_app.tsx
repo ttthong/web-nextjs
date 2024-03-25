@@ -17,5 +17,4 @@ function MyApp({ Component, pageProps }: AppProps) {
     </Fragment>
   );
 }
-
 export default MyApp;
